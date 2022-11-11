@@ -359,6 +359,8 @@
                         <hr class="my-4">
 
                         <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                        <a href="#">Отправляя форму, вы соглашаетесь с условиями соглашения обработки персональных
+                            данных</a>
                     </form>
                 </div>
             </div>
