@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/learning', function () {
-    return view('layouts.main.program_learning');
+    return view('program_learning');
 })->name('learning');
 
 Route::get('/policy', function () {
