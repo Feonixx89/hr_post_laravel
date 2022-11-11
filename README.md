@@ -59,3 +59,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+--
+Вы можете установить bootstrap вручную и скомпилировать sass.
+
+Во-первых, добавьте его в npm с помощью компиляторов:
+
+npm install bootstrap
+npm install sass
+npm install sass-loader
+Во-вторых, создайте (если не создан) resources/sass/app.scss и добавьте это:
+
+@import '~bootstrap';
+В-третьих, добавьте компиляцию в webpack.mix.js:
+
+mix.sass('resources/sass/app.scss', 'public/css')
+Затем скомпилируйте его с помощью npm run dev - вы увидите скомпилированный файл public/css/app.css.
+
+Теперь вы можете использовать его в шаблонах с активом:
+
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
