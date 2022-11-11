@@ -13,7 +13,7 @@
     .section-title {
         margin: 0px;
         margin-bottom: 4.5rem;
-        font-size: 4rem;;
+        font-size: 2.6rem;;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -102,6 +102,9 @@
         text-decoration: none;
     }
 
+    section {
+        padding: 5rem 0;
+    }
 </style>
 <section id="promotion">
     <div class="container">

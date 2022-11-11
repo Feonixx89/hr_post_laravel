@@ -10,6 +10,7 @@
         #body {
             font-family: Montserrat,sans-serif;
             text-align: center;
+            font-size: 16px;
         }
     </style>
 </head>

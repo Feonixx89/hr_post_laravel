@@ -47,9 +47,9 @@
     }
 
     .hero-title {
-        font-size: 5.6rem;
+        font-size: 3.6rem;
         font-weight: 700;
-        margin-bottom: 3.2rem;
+        margin-bottom: 3.6rem;
         text-align: left;
     }
 
