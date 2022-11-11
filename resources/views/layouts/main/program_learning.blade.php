@@ -2,7 +2,6 @@
 
 @section('content')
     <main class="px-3">
-        <h1>HR-POST</h1>
         <p class="lead">HR-POST Point Of Success Team команда экспертов с 20-летним опытом успешного закрытия
             вакансий</p>
         <p class="lead">
