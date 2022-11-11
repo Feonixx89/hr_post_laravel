@@ -6,7 +6,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Program_1</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ route('learning') }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Program_2</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ route('learning') }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Program_3</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ route('learning') }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Program_4</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ route('learning') }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Program_5</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="{{ route('learning') }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>

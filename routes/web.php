@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
-
-
-Route::get('/test', function () {
-    return view('welcome_2');
-});
+Route::get('/learning', function () {
+   return view('layouts.main.program_learning');
+})->name('learning');
