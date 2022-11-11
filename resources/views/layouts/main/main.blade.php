@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HRPost @yield('title')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a893587e3.js" crossorigin="anonymous"></script>
+    <style>
+        #body {
+            font-family: Montserrat,sans-serif;
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
+<body id="body">
 @section('header')
     @include('layouts.main_blocks.header')
 @show
 
 @section('container')
-    <div class="container">
-        @yield('content')
-    </div>
+    @yield('content')
 @show
 
 @section('footer')
@@ -22,5 +27,4 @@
 @show
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
