@@ -1,4 +1,5 @@
 @extends('layouts.main.main')
+
 @section('content')
     <h1>Политика обработки персональных данных интернет-сайта hr post</h1>
     <p>

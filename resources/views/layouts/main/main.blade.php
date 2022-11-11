@@ -8,7 +8,7 @@
 </head>
 <body>
 @section('header')
-    @include('layouts.blocks.header')
+    @include('layouts.main_blocks.header')
 @show
 
 @section('container')
@@ -18,7 +18,7 @@
 @show
 
 @section('footer')
-    @include('layouts.blocks.footer')
+    @include('layouts.main_blocks.footer')
 @show
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
