@@ -15,11 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 Route::get('/learning', function () {
     return view('program_learning');
 })->name('learning');
-
 Route::get('/policy', function () {
     return view('policy');
 })->name('policy');

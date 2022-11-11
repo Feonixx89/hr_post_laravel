@@ -1,7 +1,7 @@
-<main class="px-3">
-    <p class="lead">HR-POST Point Of Success Team команда экспертов с 20-летним опытом успешного закрытия
-        вакансий</p>
-    <p class="lead">
-        <a href="#" class="btn btn-lg btn-info">Узнать больше</a>
+<div class="container start">
+    <p class="fs-1 text-center text-uppercase fw-bold">
+        HR-POST Point Of Success Team команда экспертов с 20-летним опытом успешного закрытия вакансий</p>
+    <p class="fs-1 text-center text-uppercase fw-bold">
+        <a href="{{ route('index') }}" class="btn btn-lg btn-info">Узнать больше</a>
     </p>
-</main>
+</div>

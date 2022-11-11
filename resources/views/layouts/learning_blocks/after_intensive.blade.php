@@ -1,5 +1,5 @@
-<div class="container">
-    <h2>А ЧТО ПОСЛЕ ИНТЕНСИВА</h2>
+<div class="container after-intensive">
+    <p class="fs-1 text-center text-uppercase fw-bold">А что после интенсива?</p>
     <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
         <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
             <div class="card">

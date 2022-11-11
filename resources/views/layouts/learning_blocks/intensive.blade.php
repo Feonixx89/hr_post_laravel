@@ -1,5 +1,5 @@
 <div class="container">
-    <h2>ЕЩЕ ИНТЕНСИВЫ</h2>
+    <p class="fs-1 text-center text-uppercase fw-bold">Еще интенсивы</p>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
             <div class="card shadow-sm">
