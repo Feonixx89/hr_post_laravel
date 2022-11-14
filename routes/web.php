@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +23,8 @@ Route::get('/learning', function () {
 Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
+
+Route::post('/send_feedback', function (Request $request) {
+    dd($request);
+})->name('sendFeedback');
+
