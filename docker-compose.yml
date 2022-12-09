@@ -1,0 +1,47 @@
+version: "3.7"
+services:
+  hr_post:
+    build:
+      args:
+        user: sammy
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: hr_post
+    container_name: hr_post-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - hr_post
+  db:
+    image: mysql:5.7
+    container_name: hr_post-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: "hr_post"
+      MYSQL_ROOT_PASSWORD: "password"
+      MYSQL_PASSWORD: "password"
+      MYSQL_USER: "hr_post_user"
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - hr_post
+
+  nginx:
+    image: nginx:1.17-alpine
+    container_name: hr_post-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d
+    networks:
+      - hr_post
+
+networks:
+  hr_post:
+    driver: bridge
