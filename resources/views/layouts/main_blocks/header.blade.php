@@ -1,34 +1,45 @@
-<div class="container">
-    <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                        <li><a href="#" class="text-white">Like on Facebook</a></li>
-                        <li><a href="#" class="text-white">Email me</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-                <strong>HR-POST</strong>
+<header class="p-3 mb-3 border-bottom">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="{{ route('index') }}"
+               class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                <img src="{{ asset('images/logo_title.png') }}" alt="Логотип" width="40" height="40" role="img">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Клиенты</a></li>
+                <li><a href="{{ route('learning') }}" class="nav-link px-2 link-dark">Программы обучения</a></li>
+            </ul>
+
+            {{--            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">--}}
+            {{--                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">--}}
+            {{--            </form>--}}
+
+            {{--            <div class="dropdown text-end">--}}
+            {{--                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">--}}
+            {{--                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">--}}
+            {{--                </a>--}}
+            {{--                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">--}}
+            {{--                    <li><a class="dropdown-item" href="#">New project...</a></li>--}}
+            {{--                    <li><a class="dropdown-item" href="#">Settings</a></li>--}}
+            {{--                    <li><a class="dropdown-item" href="#">Profile</a></li>--}}
+            {{--                    <li><hr class="dropdown-divider"></li>--}}
+            {{--                    <li><a class="dropdown-item" href="#">Sign out</a></li>--}}
+            {{--                </ul>--}}
+            {{--            </div>--}}
+
+            <a href="https://vk.com/public212480302">
+                <img src="{{ asset('images/bootstrap_icons/social_network/vk-logo.svg') }}" alt="" width="30"
+                     height="30">
+            </a>
+
+            <a href="#">
+                <img src="{{ asset('images/bootstrap_icons/social_network/linkedin-logo.svg') }}" alt="" width="30"
+                     height="30">
+            </a>
         </div>
     </div>
-</div>
+</header>
 
 
 {{--<header class="header">--}}

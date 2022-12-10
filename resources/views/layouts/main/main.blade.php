@@ -6,16 +6,26 @@
     <title>HRPost @yield('title')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7a893587e3.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('css/libs/carousel.css') }}" rel="stylesheet">
     <style>
-        #body {
-            font-family: Montserrat,sans-serif;
-            text-align: center;
-            font-size: 16px;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
         }
     </style>
 </head>
-<body id="body">
+<body class="container">
 @section('header')
     @include('layouts.main_blocks.header')
 @show
