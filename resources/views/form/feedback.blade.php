@@ -1,23 +1,21 @@
-<form action="{{ route('sendFeedback') }}" method='POST'>
-    @csrf
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Имя" aria-label="Username" aria-describedby="basic-addon1" name="username">
+<form class="p-4 p-md-5 border rounded-3 bg-light" method="post" action="{{ route('sendFeedback') }}">
+    <div class="mb-3">
+        <label for="firstName"></label>
+        <input type="text" class="form-control" id="firstName" placeholder="Введите имя" value="" required=""
+               name="userName">
     </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Фамилия" aria-label="UserSurname" aria-describedby="basic-addon2" name="surname">
+    <div class="mb-3">
+        <label for="floatingInput"></label>
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="userEmail"
+               required="" value="">
     </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Телефон" aria-label="UserPhone" aria-describedby="basic-addon3" name="phone">
+    <div class="mb-3">
+        <label for="phone"></label>
+        <input type="text" class="form-control" id="phone" placeholder="+7 999 123-45-67" value="" required=""
+               name="userPhone">
     </div>
-    <div class="input-group mb-3">
-        <input type="email" class="form-control" placeholder="Электронная почта" aria-label="UserEmail" aria-describedby="basic-addon3" name="email">
-    </div>
-    <div class="input-group">
-        <textarea class="form-control" aria-label="With textarea" placeholder="Сообщение" name="message"></textarea>
-    </div>
-    <div class="mb-3 form-check input-group">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="checkPolicy">
-        <a href="{{ route('policy') }}"> Отправляя форму, вы соглашаетесь с условиями соглашения обработки персональных данных </a>--}}
-    </div>
-    <button  class="btn btn-info">Отправить</button>
+
+    <button class="btn btn-sm btn-outline-info w-100" type="submit">Оставить заявку</button>
+    <hr class="my-4">
+    <small class="text-muted">Нажимая эту кнопку, вы соглашаетесь с условиями использования.</small>
 </form>

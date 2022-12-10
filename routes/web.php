@@ -10,6 +10,7 @@ Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
 Route::post('/send_feedback', function (Request $request) {
+    dd($request);
 })->name('sendFeedback');
 
 Route::prefix('program')->group(function () {

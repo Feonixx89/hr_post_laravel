@@ -12,7 +12,15 @@
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-info">Зарегистрироваться</button>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-info program-registry"
+                                    data-program-id="{{ $program->id }}"
+                                    data-route="{{ route('sendFeedback') }}"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"
+                            >
+                                Зарегистрироваться
+                            </button>
                             <button type="button" class="btn btn-sm btn-outline-info">Подробнее</button>
                         </div>
                     </div>
@@ -20,4 +28,11 @@
             </div>
         </div>
     @endforeach
+</div>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        @include('form.feedback')
+    </div>
 </div>
