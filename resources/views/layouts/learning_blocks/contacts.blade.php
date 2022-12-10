@@ -16,7 +16,7 @@
                     <input type="text" class="form-control" id="phone" placeholder="+7 999 123-45-67" value="" required="" name="userPhone">
                 </div>
 
-                <button class="w-100 btn btn-lg btn-info" type="submit">Оставить заявку</button>
+                <button class="btn btn-sm btn-outline-info w-100" type="submit">Оставить заявку</button>
                 <hr class="my-4">
                 <small class="text-muted">Нажимая эту кнопку, вы соглашаетесь с условиями использования.</small>
             </form>

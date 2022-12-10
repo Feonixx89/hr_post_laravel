@@ -21,7 +21,7 @@
                 <hr>
                 Стоимость курса 5800 руб.
                 </p>
-                <button class="btn btn-outline-info text-ri" type="button">
+                <button class="btn btn-sm btn-outline-info w-25" type="button">
                     <a class="text-decoration-none" href="https://docs.google.com/document/d/1OFPCO4LUOn_hy2E1nP_fuzASu_eIUKQs/edit?usp=sharing&ouid=102524882000131465361&rtpof=true&sd=true">Ознакомиться с программой</a>
                 </button>
             </div>

@@ -2,7 +2,9 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top container">
     <div class="row">
         <div class="col-12 col-md">
-            <img class="mb-2" src="{{ asset('images/logo_title.png') }}" alt="" width="40" height="40">
+            <a href="{{ asset('index') }}">
+                <img class="mb-2" src="{{ asset('images/logo_title.png') }}" alt="" width="40" height="40">
+            </a>
             <small class="d-block mb-3 text-muted">© 2020- {{ $currentYear }} </small>
         </div>
         <div class="col-6 col-md">
@@ -30,8 +32,7 @@
                         <img src="{{ asset('images/icons/social_network/vk.png') }}" alt="https://vk.com/public212480302" width="30" height="30">
                     </a>
                     <a class="link-secondary text-decoration-none" href="#">
-                        <img src="{{ asset('images/icons/social_network/linkedin.png') }}" alt="" width="30"
-                             height="30">
+                        <img src="{{ asset('images/icons/social_network/linkedin.png') }}" alt="" width="30" height="30">
                     </a>
                 </li>
             </ul>
