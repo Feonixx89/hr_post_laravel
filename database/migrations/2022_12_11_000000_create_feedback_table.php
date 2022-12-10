@@ -14,13 +14,13 @@ class CreateFeedbackTable extends Migration
     public function up()
     {
         Schema::create('feedback', function (Blueprint $table) {
-            $table->id();
+            $table->id()->autoIncrement();
             $table->string('name');
-            $table->string('surname');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('phone');
-            $table->text('message');
+            $table->foreignId('program_id')->references('id')->on('programs');
             $table->timestamp('created_at')->nullable();
+            $table->boolean('actual')->default(true);
         });
     }
 
