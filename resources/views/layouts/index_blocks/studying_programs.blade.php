@@ -13,13 +13,13 @@
             сотрудников. Занятия проводятся по субботам Действует раннее бронирование</p>
     </div>
     <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee"></rect>
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
+        {{--        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"--}}
+        {{--             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"--}}
+        {{--             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>--}}
+        {{--            <rect width="100%" height="100%" fill="#eee"></rect>--}}
+        {{--            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>--}}
+        {{--        </svg>--}}
+        <img src="{{ asset('images/plugs/image_1.jpg') }}" alt="Инструменты эффективного рекрутинга" width="500" height="500">
     </div>
 </div>
 
@@ -27,19 +27,14 @@
 
 <div class="row featurette">
     <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Счастливая команда силами HR.<span class="text-muted">(курс)</span>
+        <h2 class="featurette-heading">Счастливая команда силами HR.<span class="text-muted">(интенсив)</span>
         </h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
-            layout would work with some actual real-world content in place.</p>
+        <p class="lead">На интенсиве Вы научитесь технологиям, которые позволят собрать команду компетентных, лояльных и
+            вовлеченных профессионалов. Узнать как можно этого достичь используя современные методики подбора, мотивации
+            и развития команды. Создайте счастливую команду в своей компании!</p>
     </div>
     <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee"></rect>
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
+        <img src="{{ asset('images/plugs/image_2.jpg') }}" alt="Счастливая команда силами HR" width="500" height="500">
     </div>
 </div>
 
@@ -47,20 +42,15 @@
 
 <div class="row featurette">
     <div class="col-md-7">
-        <h2 class="featurette-heading">Командообразование. Лидерство. <span class="text-muted">(курс тренингов)</span>
+        <h2 class="featurette-heading">Менеджмент 1.0 базовые навыки руководителя. <span class="text-muted">(курс тренингов)</span>
         </h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-            intended to be actually read, simply here to give you a better view of what this would look like with
-            some actual content. Your content.</p>
+        <p class="lead"> Курс направлен на формирование компетенции современного руководителя. Вы научитесь эффективной
+            постановки задач, грамотному принятию управленческих решений, делегированию управлению мотивацией персонала
+            и многому другому... Все материалы программы представлены в виде кейсов и закрепляются поэтапно на
+            практике</p>
     </div>
     <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee"></rect>
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
+        <img src="{{ asset('images/plugs/image_3.jpg') }}" alt="Менеджмент 1.0 базовые навыки руководителя" width="500" height="500">
     </div>
 </div>
 
