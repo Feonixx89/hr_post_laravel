@@ -17,7 +17,7 @@
                                     data-program-id="{{ $program->id }}"
                                     data-route="{{ route('sendFeedback') }}"
                                     data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal"
+                                    data-bs-target="#staticBackdrop"
                             >
                                 Зарегистрироваться
                             </button>
@@ -31,8 +31,21 @@
 </div>
 
 <!-- Модальное окно -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
-        @include('form.feedback')
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Заголовок модального окна</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                @include('form.feedback')
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary">Понял</button>
+            </div>
+        </div>
     </div>
 </div>

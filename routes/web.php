@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProgramController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +16,6 @@ Route::post('/send_feedback', function (Request $request) {
 
 Route::prefix('program')->group(function () {
     Route::get('/learning', function () {
-        return view('program_learning', ['programs' => \App\Http\Controllers\ProgramController::list()]);
+        return view('program_learning', ['programs' => ProgramController::list()]);
     })->name('learning');
 });
