@@ -1,9 +1,10 @@
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>HRPost @yield('title')</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -49,7 +50,13 @@
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
         crossorigin="anonymous"></script>
 <script src="{{ asset('js/owl.carousel.min.js')}}"></script>
-
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
 <script>
     $(document).ready(function () {
         $("#slider").owlCarousel({
@@ -86,7 +93,28 @@
                 }
             });
         });
+        tinymce.init({
+            selector: 'textarea#programDescriptionId', // Replace this CSS selector to match the placeholder element for TinyMCE
+            plugins: 'code table lists',
+            toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table'
+        });
+        $('#btnSendDescriptionProgram').on('click', function() {
+            let route = $(this).data('route'),
+                programName = $('#programName').val();
+            $.ajax({
+                url: route,
+                method: 'post',
+                dataType: 'json',
+                data: {
+                    'description' : tinyMCE.activeEditor.getContent(),
+                    'programName' : programName
+                },
+                success: function () {
+                    alert('Получилось');
+                }
+            });
+        });
+
     });
-
-
 </script>
+<script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>

@@ -15,3 +15,5 @@ const mix = require('laravel-mix');
 mix.styles('resources/css/app.css', 'public/css/style.css');
 mix.styles('resources/css/animate.css', 'public/css/libs/animate.css');
 mix.sass('resources/sass/app.scss', 'public/css');
+mix.copyDirectory('vendor/tinymce/tinymce', 'public/js/tinymce');
+

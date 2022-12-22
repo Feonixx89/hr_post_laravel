@@ -16,6 +16,12 @@ Route::post('/send_feedback', function (Request $request) {
 
 Route::prefix('program')->group(function () {
     Route::get('/learning', function () {
-        return view('program_learning', ['programs' => ProgramController::list()]);
+      return view('program_learning', ['programs' => ProgramController::list()]);
     })->name('learning');
+    Route::get('/create', function () {
+        return view('programs.create');
+    })->name('create');
+    Route::post('/send', function (Request $request) {
+        return ProgramController::send($request);
+    })->name('sendDescriptionProgram');
 });
