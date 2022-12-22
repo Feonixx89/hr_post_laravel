@@ -26,7 +26,11 @@ Route::prefix('program')->group(function () {
         return ProgramController::send($request);
     })->name('sendDescriptionProgram');
 
-    Route::post('/about/{id}', function (Programs $id){
-        return view('programs.about', ['$program' => ProgramController::about($id)]);
+    Route::get('/about/{id}', function (Programs $id){
+        return ProgramController::about($id);
     })->name('about');
+
+    Route::get('/t_1', function(Programs $program){
+        return view('programs.about', ['program' => $program]);
+    })->name('t_1');
 });

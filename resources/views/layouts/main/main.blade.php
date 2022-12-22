@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <title>HRPost @yield('title')</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -98,7 +98,7 @@
             plugins: 'code table lists',
             toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table'
         });
-        $('#btnSendDescriptionProgram').on('click', function() {
+        $('#btnSendDescriptionProgram').on('click', function () {
             let route = $(this).data('route'),
                 programName = $('#programName').val(),
                 programPrice = $('#programPrice').val();
@@ -107,28 +107,27 @@
                 method: 'post',
                 dataType: 'json',
                 data: {
-                    'description' : tinyMCE.activeEditor.getContent(),
-                    'programName' : programName,
-                    'programPrice' : programPrice
+                    'description': tinyMCE.activeEditor.getContent(),
+                    'programName': programName,
+                    'programPrice': programPrice
                 },
                 success: function () {
                     alert('Получилось');
                 }
             });
         });
-        $('.about-program').one('click', function () {
-            let route = $(this).data('route');
+        $('.about-program').on('click', function () {
+            let route = $(this).data('route'),
+                id = $(this).data('program-id');
             $.ajax({
-                type: "POST",
                 url: route,
-                success: function(json) {
-                    if (json.redirect) {
-                        // json.redirect содержит строку URL
-                        window.location.href = json.redirect;
-                    }
-                }б
-                errors: function (json) {
-
+                method: 'get',
+                dataType: 'json',
+                data: {
+                    'program': id
+                },
+                success: function (result) {
+                   window.location.href = result.url;
                 }
             })
         })

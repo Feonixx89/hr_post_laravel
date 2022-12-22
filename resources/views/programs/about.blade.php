@@ -11,8 +11,12 @@
 @section('container')
 
     @parent
+    @php($program = \App\Models\Programs::find($_GET)[0])
+    <h1 class="text-center"> {{ $program->name }} </h1>
 
-    @dd($program->name)
+    <hr>
+
+    {!! $program->description !!}
 @endsection
 
 @section('footer')

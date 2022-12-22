@@ -24,6 +24,7 @@
                             <button type="button"
                                     class="btn btn-sm btn-outline-info about-program"
                                     data-route="{{ route('about' , [ 'id' => $program->id ]) }}"
+                                    data-program-id="{{ $program->id }}"
                             >Подробнее</button>
                         </div>
                     </div>
