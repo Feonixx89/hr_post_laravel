@@ -19,7 +19,7 @@ class CreateCompoundProgramsTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->integer('duration_in_hours');
-            $table->timestamp('created_at')->nullable();
+            $table->timestamps();
         });
     }
 

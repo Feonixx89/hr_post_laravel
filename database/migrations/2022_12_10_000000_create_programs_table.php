@@ -19,7 +19,7 @@ class CreateProgramsTable extends Migration
             $table->text('description')->nullable();
             $table->integer('price');
             $table->boolean('actual')->default(true);
-            $table->timestamp('created_at')->nullable();
+            $table->timestamps();
         });
     }
 

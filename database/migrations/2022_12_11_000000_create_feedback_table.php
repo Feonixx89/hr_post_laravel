@@ -19,8 +19,8 @@ class CreateFeedbackTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->foreignId('program_id')->references('id')->on('programs');
-            $table->timestamp('created_at')->nullable();
             $table->boolean('actual')->default(true);
+            $table->timestamps();
         });
     }
 
