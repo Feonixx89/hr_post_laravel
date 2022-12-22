@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Programs;
-use Exception;
 use Illuminate\Http\Request;
 
 class ProgramController extends Controller
@@ -19,14 +18,12 @@ class ProgramController extends Controller
      */
     public static function send(Request $request): bool
     {
-        try {
-            Programs::create($request);
-            $result = true;
-        } catch (Exception $e) {
-            $result = false;
-        }
-        return $result;
+        return Programs::create($request);
     }
 
+    public static function about(Programs $program)
+    {
+        return view('programs.about')->with('program', $program);
+    }
 }
 

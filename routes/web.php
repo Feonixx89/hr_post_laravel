@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProgramController;
+use App\Models\Programs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -24,4 +25,8 @@ Route::prefix('program')->group(function () {
     Route::post('/send', function (Request $request) {
         return ProgramController::send($request);
     })->name('sendDescriptionProgram');
+
+    Route::post('/about/{id}', function (Programs $id){
+        return view('programs.about', ['$program' => ProgramController::about($id)]);
+    })->name('about');
 });

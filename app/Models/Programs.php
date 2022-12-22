@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 /**
  * @property string $name
  * @property string $description
+ * @property mixed $price
  */
 class Programs extends Model
 {
@@ -24,15 +25,21 @@ class Programs extends Model
 
     /**
      * @param Request $request
-     * @return void
+     * @return string
      */
-    public function create(Request $request)
+    public static function create(Request $request): string
     {
         $program = new Programs();
 
         $program->name = $request->programName;
         $program->description = $request->description;
+        $program->price = $request->programPrice;
 
-        $program->save();
+        if ($program->save()) {
+            return 'good';
+        } else {
+            return 'bad';
+        }
+
     }
 }

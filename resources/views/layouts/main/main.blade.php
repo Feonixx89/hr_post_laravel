@@ -100,21 +100,38 @@
         });
         $('#btnSendDescriptionProgram').on('click', function() {
             let route = $(this).data('route'),
-                programName = $('#programName').val();
+                programName = $('#programName').val(),
+                programPrice = $('#programPrice').val();
             $.ajax({
                 url: route,
                 method: 'post',
                 dataType: 'json',
                 data: {
                     'description' : tinyMCE.activeEditor.getContent(),
-                    'programName' : programName
+                    'programName' : programName,
+                    'programPrice' : programPrice
                 },
                 success: function () {
                     alert('Получилось');
                 }
             });
         });
+        $('.about-program').one('click', function () {
+            let route = $(this).data('route');
+            $.ajax({
+                type: "POST",
+                url: route,
+                success: function(json) {
+                    if (json.redirect) {
+                        // json.redirect содержит строку URL
+                        window.location.href = json.redirect;
+                    }
+                }б
+                errors: function (json) {
 
+                }
+            })
+        })
     });
 </script>
 <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
