@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-12 col-md">
             <a href="{{ asset('index') }}">
-                <img class="mb-2" src="{{ asset('images/logo_title.png') }}" alt="" width="40" height="40">
+                <img class="mb-2" src="{{ asset('images/img.png') }}" alt="" width="280" height="180">
             </a>
             <small class="d-block mb-3 text-muted">© 2020- {{ $currentYear }} </small>
         </div>
