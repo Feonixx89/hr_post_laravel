@@ -26,6 +26,12 @@
                 font-size: 3.5rem;
             }
         }
+        .bg-info, .btn-primary {
+            background-color: rgb(121,139,89) !important;
+        }
+        .text-info {
+            color: rgb(121,139,89) !important;
+        }
     </style>
     <link rel="stylesheet" href="{{ asset('css/libs/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('public/css/libs/owl.theme.default.min.css') }}">

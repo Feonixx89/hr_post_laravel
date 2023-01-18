@@ -1,8 +1,3 @@
-<style>
-    .bg-info, .btn-primary {
-        background-color: rgb(121,139,89) !important;
-    }
-</style>
 <h1 class="text-center m-5">Интенсивы</h1>
 
 <div class="row row-cols-1 row-cols-md-3 mb-5 mt-5">
