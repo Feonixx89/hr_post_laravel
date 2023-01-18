@@ -26,7 +26,7 @@
                 font-size: 3.5rem;
             }
         }
-        .bg-info, .btn-primary {
+        .bg-info, .btn-primary, .bg-secondary {
             background-color: rgb(121,139,89) !important;
         }
         .text-info {
