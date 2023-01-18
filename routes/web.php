@@ -33,4 +33,5 @@ Route::prefix('program')->group(function () {
     Route::get('/t_1', function(Programs $program){
         return view('programs.about', ['program' => $program]);
     })->name('t_1');
+    Route::view('/3', 'programs.main.intensive')->name('intensive_3');
 });
