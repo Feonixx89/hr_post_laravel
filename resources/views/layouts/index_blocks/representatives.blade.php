@@ -1,8 +1,4 @@
-<hr class="featurette-divider">
-
 <h1 class="text-center m-5">Нам доверяют</h1>
-
-<hr class="featurette-divider">
 
 <div class="owl-carousel owl-theme" id="slider">
     <div class="slide">

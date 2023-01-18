@@ -5,5 +5,3 @@
         <p class="display-5">Точка успеха Вашей команды</p>
     </div>
 </div>
-
-<hr class="featurette-divider">

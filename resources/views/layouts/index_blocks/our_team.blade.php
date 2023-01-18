@@ -1,9 +1,5 @@
-<hr class="featurette-divider">
-
 <div class="container marketing">
     <h1 class="text-center m-5">Наша команда</h1>
-
-    <hr class="featurette-divider">
 
     <div class="row">
         <div class="col-lg-4">

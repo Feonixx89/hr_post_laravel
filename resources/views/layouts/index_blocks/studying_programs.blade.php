@@ -1,9 +1,14 @@
+<style>
+    .bg-info, .btn-primary {
+        background-color: rgb(121,139,89) !important;
+    }
+</style>
 <h1 class="text-center m-5">Интенсивы</h1>
 
 <div class="row row-cols-1 row-cols-md-3 mb-5 mt-5">
     <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
+            <div class="card-header py-3 bg-info">
                 <h4 class="my-0 fw-normal m-5">Инструменты эффективного рекрутинга</h4>
             </div>
             <div class="card-body">
@@ -38,7 +43,7 @@
 
     <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
+            <div class="card-header py-3 bg-info">
                 <h4 class="my-0 fw-normal m-5">Счастливая команда силами HR</h4>
             </div>
             <div class="card-body">
@@ -70,7 +75,7 @@
 
     <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
+            <div class="card-header py-3 bg-info">
                 <h4 class="my-0 fw-normal m-5">Менеджмент 1.0 базовые навыки руководителя.</h4>
             </div>
             <div class="card-body">
@@ -117,5 +122,3 @@
         </div>
     </div>
 </div>
-
-<hr class="featurette-divider">

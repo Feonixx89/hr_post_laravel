@@ -1,8 +1,6 @@
 <div class="container marketing">
     <h1 class="text-center m-5">О нас говорят</h1>
 
-    <hr class="featurette-divider">
-
     <div class="row">
         <div class="col-lg-6">
             <img src="{{ asset('images/people/about_people/Kyzina_Tatyana.jpg') }}" alt="Татьяна Кузина" width="200"
