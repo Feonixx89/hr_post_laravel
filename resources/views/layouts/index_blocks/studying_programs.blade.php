@@ -1,47 +1,41 @@
-<hr class="featurette-divider">
-
 <h1 class="text-center m-5">Интенсивы</h1>
 
-<hr class="featurette-divider">
-
-{{--<div class="row featurette">--}}
-{{--    <div class="col-md-7">--}}
-{{--        <h2 class="featurette-heading">Инструменты эффективного рекрутинга. <span--}}
-{{--                class="text-muted">(курс)</span></h2>--}}
-{{--        <p class="lead">Программа «Эффективный рекрутинг» позволит в короткий срок и без отрыва от работы «прокачать»--}}
-{{--            компетенции в области подбора, получить полезные и мощные инструменты привлечения в компанию лучших--}}
-{{--            сотрудников. Занятия проводятся по субботам Действует раннее бронирование</p>--}}
-{{--        <button class="btn btn-outline-info" type="button">--}}
-{{--            <a class="text-decoration-none" href="{{ route('learning') }}">Подробнее</a>--}}
-{{--        </button>--}}
-{{--    </div>--}}
-{{--    <div class="col-md-5">--}}
-{{--        <img src="{{ asset('images/plugs/image_1.jpg') }}" alt="Инструменты эффективного рекрутинга" width="500"--}}
-{{--             height="500">--}}
-{{--    </div>--}}
-{{--</div>--}}
-
-
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+<div class="row row-cols-1 row-cols-md-3 mb-5 mt-5">
     <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Free</h4>
+                <h4 class="my-0 fw-normal m-5">Инструменты эффективного рекрутинга</h4>
             </div>
             <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
-                </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                <div class="m-5">
+                    Программа «Эффективный рекрутинг» позволит в короткий срок и без отрыва от работы «прокачать»
+                    компетенции в области подбора, получить полезные и мощные инструменты привлечения в компанию лучших
+                    сотрудников
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                    <a class="text-white" href="{{ route('intensiveEffectiveRecruiting') }}">Подробнее</a>
+                </button>
                 <br>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                <br>
+                <button type="button"
+                        class="w-100 btn btn-lg btn-primary"
+                        data-route="{{ route('sendFeedback') }}"
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"
+                >
+                    Записаться
+                </button>
             </div>
         </div>
     </div>
+
     <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
@@ -57,7 +51,6 @@
                     <br>
                     <br>
                 </div>
-
                 <button type="button" class="w-100 btn btn-lg btn-primary">
                     <a class="text-white" href="{{ route('intensiveHappyTeam') }}">Подробнее</a>
                 </button>
@@ -65,7 +58,6 @@
                 <br>
                 <button type="button"
                         class="w-100 btn btn-lg btn-primary"
-                        {{--                        data-program-id="{{ $program->id }}"--}}
                         data-route="{{ route('sendFeedback') }}"
                         data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop"
@@ -96,7 +88,6 @@
                 <br>
                 <button type="button"
                         class="w-100 btn btn-lg btn-primary"
-                        {{--                        data-program-id="{{ $program->id }}"--}}
                         data-route="{{ route('sendFeedback') }}"
                         data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop"
