@@ -15,6 +15,7 @@
     @include('layouts.index_blocks.about')
     @include('layouts.index_blocks.representatives')
     @include('layouts.index_blocks.feedback')
+    @include('layouts.index_blocks.gallery')
 @endsection
 
 @section('footer')
