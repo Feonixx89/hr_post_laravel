@@ -60,6 +60,12 @@
         .thumb {
             padding: 5px;
         }
+        body {
+            background: whitesmoke !important;
+        }
+        .rounded-3 {
+            background-color: whitesmoke !important;
+        }
     </style>
 </head>
 <body class="container">
