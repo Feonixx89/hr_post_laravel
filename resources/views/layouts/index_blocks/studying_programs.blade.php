@@ -24,12 +24,7 @@
                 </button>
                 <br>
                 <br>
-                <button type="button"
-                        class="w-100 btn btn-lg btn-primary"
-                        data-route="{{ route('sendFeedback') }}"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
-                >
+                <button type="button" class="w-100 btn btn-lg btn-primary">
                     Записаться
                 </button>
             </div>
@@ -56,12 +51,7 @@
                 </button>
                 <br>
                 <br>
-                <button type="button"
-                        class="w-100 btn btn-lg btn-primary"
-                        data-route="{{ route('sendFeedback') }}"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
-                >
+                <button type="button" class="w-100 btn btn-lg btn-primary show-form-send-feedback">
                     Записаться
                 </button>
             </div>
@@ -86,33 +76,9 @@
                 </button>
                 <br>
                 <br>
-                <button type="button"
-                        class="w-100 btn btn-lg btn-primary"
-                        data-route="{{ route('sendFeedback') }}"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
-                >
+                <button type="button" class="w-100 btn btn-lg btn-primary show-form-send-feedback">
                     Записаться
                 </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Модальное окно -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-     aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Менеджмент 1.0 базовые навыки руководителя.</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
-            </div>
-            <div class="modal-body">
-                @include('form.feedback')
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Записаться</button>
             </div>
         </div>
     </div>

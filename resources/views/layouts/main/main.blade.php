@@ -28,6 +28,8 @@
         }
         .bg-info, .btn-primary, .bg-secondary {
             background-color: rgb(121,139,89) !important;
+            color: black !important;
+            border: none !important;
         }
         .text-info {
             color: rgb(121,139,89) !important;
@@ -84,21 +86,7 @@
                 }
             }
         });
-        $('.program-registry').click(function () {
-            let route = $('.program-registry').data('route'),
-                program_id = $('.program-registry').data('program_id');
-            $.ajax({
-                url: route,
-                method: 'post',
-                dataType: 'html',
-                data: {
-                    programId: program_id,
-                },
-                success: function (data) {
-                    alert(data);
-                }
-            });
-        });
+
         tinymce.init({
             selector: 'textarea#programDescriptionId', // Replace this CSS selector to match the placeholder element for TinyMCE
             plugins: 'code table lists',
@@ -122,21 +110,7 @@
                 }
             });
         });
-        $('.about-program').on('click', function () {
-            let route = $(this).data('route'),
-                id = $(this).data('program-id');
-            $.ajax({
-                url: route,
-                method: 'get',
-                dataType: 'json',
-                data: {
-                    'program': id
-                },
-                success: function (result) {
-                   window.location.href = result.url;
-                }
-            })
-        })
+
     });
 </script>
 <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
