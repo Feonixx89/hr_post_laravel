@@ -1,6 +1,6 @@
 <header class="p-3 mb-3 border-bottom">
     <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <div class="d-flex flex-wrap align-items-center justify-content-sm-between">
             <a href="{{ route('index') }}"
                class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
                 <img src="{{ asset('images/img.png') }}" alt="Логотип" width="280" height="180" role="img">
