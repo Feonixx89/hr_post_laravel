@@ -35,6 +35,6 @@ Route::prefix('intensive')->group(function () {
             ->name('intensiveEffectiveRecruiting');
     });
 });
-Route::post('/show_form_send_feedback', function(Request $request){
-    return FeedBackController::showFrom($request);
-})->name('showFormSendFeedBack');
+Route::post('/send_apply', function (Request $request){
+    return FeedBackController::send($request);
+})->name('sendApply');

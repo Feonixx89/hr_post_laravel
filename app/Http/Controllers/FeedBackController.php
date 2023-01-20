@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 
 class FeedBackController extends Controller
 {
-    public static function showFrom(Request $request)
+    public static function send(Request $request)
     {
         dd($request);
     }

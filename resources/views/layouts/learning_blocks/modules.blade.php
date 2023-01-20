@@ -12,7 +12,8 @@
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-primary m-1 show-form-send-feedback">
+                            <button type="button" class="btn btn-sm btn-primary m-1 show-form-send-feedback "
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop{{ $program->id }}">
                                 Зарегистрироваться
                             </button>
                             <button type="button" class="btn btn-sm btn-primary about-program m-1">
@@ -23,6 +24,6 @@
                 </div>
             </div>
         </div>
+        <x-modal :program="$program"></x-modal>
     @endforeach
 </div>
-

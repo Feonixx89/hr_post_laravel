@@ -124,6 +124,7 @@
             plugins: 'code table lists',
             toolbar: 'undo redo | formatselect| bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table'
         });
+
         $('#btnSendDescriptionProgram').on('click', function () {
             let route = $(this).data('route'),
                 programName = $('#programName').val(),
@@ -142,7 +143,22 @@
                 }
             });
         });
-
+        $('.apply-for-intensive').on('click', function() {
+            let data = $(this).parent().parent().find('form').serializeArray(),
+                route = $(this).data('route'),
+                programName = $(this).data('program-name');
+            $.ajax({
+                url: route,
+                method: 'post',
+                data: {
+                    data: data,
+                    programName: programName
+                },
+                success: function(result) {
+                    console.log(result);
+                }
+            })
+        });
     });
 </script>
 
