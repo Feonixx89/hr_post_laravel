@@ -12,11 +12,16 @@
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-primary m-1 show-form-send-feedback "
-                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop{{ $program->id }}">
+                            <button type="button"
+                                    class="btn btn-sm btn-primary m-1 show-form-send-feedback "
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop{{ $program->id }}">
                                 Зарегистрироваться
                             </button>
-                            <button type="button" class="btn btn-sm btn-primary about-program m-1">
+                            <button type="button"
+                                    class="btn btn-sm btn-primary intensive-module m-1"
+                                    data-route="{{ route('intensiveModule', ['id' => $program->id]) }}"
+                            >
                                 Подробнее
                             </button>
                         </div>

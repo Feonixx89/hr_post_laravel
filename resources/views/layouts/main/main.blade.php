@@ -159,6 +159,14 @@
                 }
             })
         });
+        $('.intensive-module').on('click', function() {
+            alert(123);
+            let route = $(this).data('route');
+            $.ajax({
+                url: route,
+                method: 'get',
+            })
+        })
     });
 </script>
 

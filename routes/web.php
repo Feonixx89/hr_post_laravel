@@ -33,6 +33,11 @@ Route::prefix('intensive')->group(function () {
     Route::prefix('effective_recruiting')->group(function () {
         Route::view('/', 'intensive.effective_recruiting', ['programs' => ProgramController::list()])
             ->name('intensiveEffectiveRecruiting');
+        Route::prefix('/modules')->group(function ($id) {
+            Route::view('/{id}', 'modules.intensive_module', [
+                'id' => $id,
+            ])->name('intensiveModule');
+        });
     });
 });
 Route::post('/send_apply', function (Request $request){
