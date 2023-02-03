@@ -1,45 +1,13 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProgramController;
-use App\Http\Controllers\FeedBackController;
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
-
-Route::get('/policy', function () {
-    return view('policy');
-})->name('policy');
-
-Route::post('/send_feedback', function (Request $request) {
-    dd($request);
-})->name('sendFeedback');
-
-Route::prefix('program')->group(function () {
-    Route::get('/create', function () {
-        return view('programs.create');
-    })->name('create');
-
-    Route::post('/send', function (Request $request) {
-        return ProgramController::send($request);
-    })->name('sendDescriptionProgram');
+Route::get('/', function () { return view('option_2.index'); })->name('index');
+Route::prefix('intensive')->group(function(){
+    Route::get('/happy_team', function () { return view('option_2.intensive.happy_team'); })->name('happy_team');
+    Route::get('/management', function () { return view('option_2.intensive.management'); })->name('management');
+    Route::get('/effective_recruting', function () { return view('option_2.intensive.effective_recruting'); })->name('effective_recruting');
 });
-
-Route::prefix('intensive')->group(function () {
-    Route::view('/happy_team', 'intensive.happy_team')->name('intensiveHappyTeam');
-    Route::view('/management_1.0', 'intensive.management_1_0')->name('intensiveManagement_1_0');
-    Route::prefix('effective_recruiting')->group(function () {
-        Route::view('/', 'intensive.effective_recruiting', ['programs' => ProgramController::list()])
-            ->name('intensiveEffectiveRecruiting');
-        Route::prefix('/modules')->group(function ($id) {
-            Route::view('/{id}', 'modules.intensive_module', [
-                'id' => $id,
-            ])->name('intensiveModule');
-        });
-    });
-});
-Route::post('/send_apply', function (Request $request){
-    return FeedBackController::send($request);
-})->name('sendApply');
+Route::get('/contact', function () {
+    return view('option_2.contact');
+})->name('contact');
