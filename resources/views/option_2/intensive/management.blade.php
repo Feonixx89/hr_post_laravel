@@ -401,7 +401,7 @@
                             <div class="cd-video-price">
                                 <h3 class="pricing-video text-center mb-15"><span>&#8381;</span>5000</h3>
                                 <div class="cd-pricing-btn text-center mb-30">
-                                    <a class="tp-vp-btn-green" href="course-details.html">Записаться</a>
+                                    <a class="tp-vp-btn-green" href="{{ route('contact') }}">Записаться</a>
                                 </div>
                             </div>
                         </div>

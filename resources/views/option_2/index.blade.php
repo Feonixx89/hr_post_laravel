@@ -346,7 +346,7 @@
                             </div>
                             <div class="btn-group me-2">
                                 <div class="tp-suit__btn pt-5">
-                                    <a href="contact.html" class="tp-border-btn">Записаться</a>
+                                    <a href="{{ route('contact') }}" class="tp-border-btn">Записаться</a>
                                 </div>
                             </div>
                         </div>
@@ -380,7 +380,7 @@
                             </div>
                             <div class="btn-group me-2">
                                 <div class="tp-suit__btn pt-5">
-                                    <a href="contact.html" class="tp-border-btn">Записаться</a>
+                                    <a href="{{ route('contact') }}" class="tp-border-btn">Записаться</a>
                                 </div>
                             </div>
                         </div>
