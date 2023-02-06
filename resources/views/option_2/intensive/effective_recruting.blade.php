@@ -28,7 +28,8 @@
 
 <body>
 <!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 
@@ -45,7 +46,7 @@
 <!-- back to top start -->
 <div class="progress-wrap">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
     </svg>
 </div>
 <!-- back to top end -->
@@ -66,7 +67,8 @@
                             <div class="header-cat-menu ml-40">
                                 <nav>
                                     <ul>
-                                        <li><a href="course-grid.html"> Categorie <span><i class="arrow_carrot-down"></i></span></a>
+                                        <li><a href="course-grid.html"> Categorie <span><i
+                                                        class="arrow_carrot-down"></i></span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="course-grid.html">Bangla Medium</a></li>
                                                 <li><a href="course-grid.html">English Medium</a></li>
@@ -86,7 +88,9 @@
                                 <form action="#">
                                     <div class="search-input">
                                         <input type="Email" placeholder="What you want to learn?">
-                                        <button class="header-search-btn"><i class="fi fi-rs-search mr-5"></i> Search Now</button>
+                                        <button class="header-search-btn"><i class="fi fi-rs-search mr-5"></i> Search
+                                            Now
+                                        </button>
                                     </div>
                                 </form>
                             </div>
@@ -210,7 +214,8 @@
 <main>
 
     <!-- breadcrumb-area -->
-    <section class="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay" data-background="{{ asset('/assets/img/breadcrumb/breadcrumb-bg-1.jpg') }}">
+    <section class="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay"
+             data-background="{{ asset('/assets/img/breadcrumb/breadcrumb-bg-1.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-12">
@@ -292,10 +297,16 @@
                                 </div>
                                 <div class="tp-choose-list mb-35">
                                     <ul>
-                                        <li><i class="fa-light fa-check"></i>испытываете постоянный стресс на работе</li>
-                                        <li><i class="fa-light fa-check"></i>мечтаете о быстром и качественном закрытии вакансий</li>
-                                        <li><i class="fa-light fa-check"></i>хотите освоить или развить компетенции рекрутера</li>
-                                        <li><i class="fa-light fa-check"></i>нацелены на получение стабильного дохода</li>
+                                        <li><i class="fa-light fa-check"></i>испытываете постоянный стресс на работе
+                                        </li>
+                                        <li><i class="fa-light fa-check"></i>мечтаете о быстром и качественном закрытии
+                                            вакансий
+                                        </li>
+                                        <li><i class="fa-light fa-check"></i>хотите освоить или развить компетенции
+                                            рекрутера
+                                        </li>
+                                        <li><i class="fa-light fa-check"></i>нацелены на получение стабильного дохода
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -310,7 +321,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -318,7 +330,8 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Продажа вакансий</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Продажа
+                                        вакансий</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
@@ -326,14 +339,20 @@
                                 </div>
                                 <ul class="p-3">
                                     <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>EVP</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Успех взаимодействия с заказчиком</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Что делать если заказчик не знает что ему нужно</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Успех взаимодействия с
+                                        заказчиком
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Что делать если
+                                        заказчик не знает что ему нужно
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -347,7 +366,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-02.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-02.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -355,22 +375,30 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Оценка кандидата</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Оценка
+                                        кандидата</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
                                     </div>
                                 </div>
                                 <ul class="p-3">
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Секреты прескрининга</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Как оценить хард скилс и не дать слить кандидата</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Культурный код кандидата</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Секреты прескрининга
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Как оценить хард скилс
+                                        и не дать слить кандидата
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Культурный код
+                                        кандидата
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -384,7 +412,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-03.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-03.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -392,23 +421,30 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Поиск кандидата</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Поиск
+                                        кандидата</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
                                     </div>
                                 </div>
                                 <ul class="p-3">
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Секреты сорсинга (разбить по площадкам?)</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Матрица омниканальности</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Реферальные программы</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Секреты сорсинга
+                                        (разбить по площадкам?)
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Матрица омниканальности
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Реферальные программы
+                                    </li>
                                     <br>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -422,7 +458,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-04.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-04.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -430,7 +467,8 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Удержание кандидата</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Удержание
+                                        кандидата</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
@@ -439,13 +477,17 @@
                                 <ul class="p-3">
                                     <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Разработка оффера</li>
                                     <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Предонбординг</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Подготовка к встрече кандидата</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Подготовка к встрече
+                                        кандидата
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -459,7 +501,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-05.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-05.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -467,7 +510,8 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Эффективность подбора</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Эффективность
+                                        подбора</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
@@ -475,14 +519,19 @@
                                 </div>
                                 <ul class="p-3">
                                     <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Аналитика подбора</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Бюджетирование подбора</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Автоматизация сбора данных</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Бюджетирование подбора
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Автоматизация сбора
+                                        данных
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -496,7 +545,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tpcourse mb-40">
                         <div class="tpcourse__thumb p-relative w-img fix">
-                            <a href="course-details.html"><img src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
+                            <a href="course-details.html"><img
+                                    src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
                             <div class="tpcourse__tag">
                                 <a href="course-details.html"><i class="fi fi-rr-heart"></i></a>
                             </div>
@@ -504,22 +554,30 @@
                         <div class="tpcourse__content-2">
 
                             <div class="tpcourse__ava-title mb-15">
-                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Работа не выгорая</a></h4>
+                                <h4 class="tpcourse__title tp-cours-title-color"><a href="course-details.html">Работа не
+                                        выгорая</a></h4>
                                 <div class="tpcourse__rating d-flex align-items-center right">
                                     <div class="tpcourse__pricing">
                                         <h5 class="price-title p-3"><span>&#8381;</span>5000</h5>
                                     </div>
                                 </div>
                                 <ul class="p-3">
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Компетенции рекрутера</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Ментальное здоровье рекрутера</li>
-                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Карьерные траектории рекрутера</li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Компетенции рекрутера
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Ментальное здоровье
+                                        рекрутера
+                                    </li>
+                                    <li><i class="fa-light fa-check"></i><span>&#32; &#32;</span>Карьерные траектории
+                                        рекрутера
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">
                                 <ul class="d-flex align-items-center">
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span></li>
-                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span></li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-01.png') }}" alt="meta-icon"> <span>Онлайн занятия (4 часа)</span>
+                                    </li>
+                                    <li><img src="{{ asset('/assets/img/icon/c-meta-02.png') }}" alt="meta-icon"> <span>Групповой менторинг</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="tpcourse__category mb-10">
@@ -537,7 +595,8 @@
 
 
     <!-- choose-area -->
-    <section class="choose-area bg-bottom grey-bg pt-120 pb-90" data-background="{{ asset('/assets/img/bg/shape-bg-1.png') }}">
+    <section class="choose-area bg-bottom grey-bg pt-120 pb-90"
+             data-background="{{ asset('/assets/img/bg/shape-bg-1.png') }}">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-6 col-md-12">
@@ -545,7 +604,7 @@
                         <div class="section-title mb-25">
                             <span class="tp-sub-title-box mb-15">Почему выбирают нас</span>
                             <h2 class="tp-section-title mb-20">Вы научитесь</h2>
-{{--                            <p>Dramatically supply transparent deliverables before & you backward comp internal or "organic" sources.</p>--}}
+                            {{--                            <p>Dramatically supply transparent deliverables before & you backward comp internal or "organic" sources.</p>--}}
                         </div>
                         <div class="tp-choose-list tp-choose-bg mb-60">
                             <ul>
@@ -561,7 +620,8 @@
                                 </li>
                                 <li>
                                     <div class="tp-list-bg">
-                                        <i class="fa-light fa-check"></i>Повышать привлекательность организации на рынке труда
+                                        <i class="fa-light fa-check"></i>Повышать привлекательность организации на рынке
+                                        труда
                                     </div>
                                 </li>
                             </ul>
@@ -584,10 +644,10 @@
                                     <i>457+</i>
                                     <p>Закрытых вакансий</p>
                                 </li>
-{{--                                <li>--}}
-{{--                                    <p>Total Students</p>--}}
-{{--                                    <img src="{{ asset('/assets/img/icon/choose-2-shape.png') }}" alt="choose-shape">--}}
-{{--                                </li>--}}
+                                {{--                                <li>--}}
+                                {{--                                    <p>Total Students</p>--}}
+                                {{--                                    <img src="{{ asset('/assets/img/icon/choose-2-shape.png') }}" alt="choose-shape">--}}
+                                {{--                                </li>--}}
                             </ul>
                         </div>
                     </div>
@@ -598,7 +658,8 @@
     <!-- choose-area-end -->
 
     <!-- suitable-area -->
-    <section class="suitable-area bg-bottom grey-bg pt-115 pb-90" data-background="{{ asset('/assets/img/bg/shape-bg-1.png') }}">
+    <section class="suitable-area bg-bottom grey-bg pt-115 pb-90"
+             data-background="{{ asset('/assets/img/bg/shape-bg-1.png') }}">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -650,7 +711,8 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="counter-item mb-70">
                             <div class="counter-item__content counter-white-text">
-                                <h4 class="counter-item__title counter-left-title"><span class="counter">276</span>K</h4>
+                                <h4 class="counter-item__title counter-left-title"><span class="counter">276</span>K
+                                </h4>
                                 <p>Worldwide Students</p>
                             </div>
                         </div>
@@ -666,7 +728,8 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="counter-item mb-70">
                             <div class="counter-item__content counter-white-text">
-                                <h4 class="counter-item__title counter-left-title"><span class="counter">735</span>+</h4>
+                                <h4 class="counter-item__title counter-left-title"><span class="counter">735</span>+
+                                </h4>
                                 <p>Professional Courses</p>
                             </div>
                         </div>
@@ -674,7 +737,8 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="counter-item mb-70">
                             <div class="counter-item__content counter-white-text">
-                                <h4 class="counter-item__title counter-left-title"><span class="counter">4.7</span>K+</h4>
+                                <h4 class="counter-item__title counter-left-title"><span class="counter">4.7</span>K+
+                                </h4>
                                 <p>Beautiful Review</p>
                             </div>
                         </div>
@@ -804,8 +868,6 @@
     </div>
 </footer>
 <!-- footer-area-end -->
-
-
 
 
 <!-- JS here -->
