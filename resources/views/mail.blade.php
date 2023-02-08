@@ -5,9 +5,10 @@
 </head>
 <body>
 
-<p>{{ $mailData['name'] }}</p>
-<p>{{ $mailData['email'] }}</p>
-<p>{{ $mailData['message'] }}</p>
+<h1>{{ $mailData['name'] }}</h1>
+
+<h2>{{ $mailData['email'] }}</h2>
+<h3>{{ $mailData['message'] }}</h3>
 
 </body>
 </html>

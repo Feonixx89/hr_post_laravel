@@ -30,6 +30,6 @@ class Mail extends Mailable
      */
     public function build(Request $request)
     {
-        return $this->from($request->email, 'Заявка с сайта')->view('option_2.mail');
+        return $this->from($request->email, 'Заявка с сайта')->view('mail');
     }
 }
