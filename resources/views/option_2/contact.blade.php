@@ -268,7 +268,8 @@
                             <h5 class="contact-title mb-30">Связаться с нами</h5>
                         </div>
                         <div class="contact-form">
-                            <form action="#">
+                            <form action="{{ route('sendMail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="contact-form-input mb-25">
@@ -287,7 +288,8 @@
                                             <span>Комментарий</span>
                                             <textarea name="message"></textarea>
                                         </div>
-                                        <a href="#" class="tp-btn">Отправить</a>
+                                        <button type="submit" class="tp-btn">Submit</button>
+{{--                                        <a href="#" class="tp-btn">Отправить</a>--}}
                                     </div>
                                 </div>
                             </form>

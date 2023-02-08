@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('option_2.index'); })->name('index');
@@ -11,3 +12,4 @@ Route::prefix('intensive')->group(function(){
 Route::get('/contact', function () {
     return view('option_2.contact');
 })->name('contact');
+Route::post('send-mail', [MailController::class, 'index'])->name('sendMail');
