@@ -12,10 +12,6 @@
                         <div class="c-details-thumb p-relative mb-40">
                             <img src="{{ asset('/images/photos_gallery/full_size/1.JPG') }}" alt="details-bg"
                                  height="845" width="480">
-                            <div class="c-details-ava d-md-flex align-items-center">
-                                <img src="{{ asset('/assets/img/course/c-details-ava-01.png') }}" alt="avata">
-                                <span>By <a href="#">Emilia Jonas</a></span>
-                            </div>
                         </div>
                         <div class="course-details-content mb-45">
                             <div class="tpcourse__ava-title mb-25">

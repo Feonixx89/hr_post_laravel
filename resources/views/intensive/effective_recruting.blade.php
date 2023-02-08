@@ -46,9 +46,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
@@ -91,9 +91,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-02.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
@@ -137,9 +137,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-03.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
@@ -183,9 +183,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-04.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
@@ -226,9 +226,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-05.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
@@ -270,9 +270,9 @@
                         <div class="tpcourse__thumb p-relative w-img fix">
                             <a href="#"><img
                                     src="{{ asset('/assets/img/course/course-thumb-01.jpg') }}" alt="course-thumb"></a>
-{{--                            <div class="tpcourse__tag">--}}
-{{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="tpcourse__tag">--}}
+                            {{--                                <a href="#"><i class="fi fi-rr-heart"></i></a>--}}
+                            {{--                            </div>--}}
                         </div>
                         <div class="tpcourse__content-2">
 
